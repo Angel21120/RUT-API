@@ -16,11 +16,9 @@ function formatoRut(rut) {
 }
 
 (async () => {
-  const rut = "12123123-1";
+  const rut = "21226711-2";
   const rutFormateado = formatoRut(rut);
   const url = `https://www.nombrerutyfirma.com/rut?term=${rutFormateado}`;
-
-  console.log("Iniciando navegador...");
 
   // Lanzamos un navegador real
   const browser = await puppeteer.launch({
