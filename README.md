@@ -9,7 +9,7 @@ Solo deben instalar puppeteer y se podria usar
 
 La información se saca de https://www.nombrerutyfirma.com
 
-Para el uso solo deben cambiar al rut que quieren en el campo que dice  || " const rut = "12123123-1"; " ||
+Para el uso solo deben cambiar al rut que quieren en el campo  || " const rut = "12123123-1"; " ||
 
 Creditos....
 https://github.com/ThePinwys/rutificador-chile?tab=readme-ov-file
