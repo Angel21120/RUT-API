@@ -1,4 +1,4 @@
-// Primero usamos instalamos la libreria "npm install puppeteer"
+// Primero instalamos la libreria "npm install puppeteer"
 
 const puppeteer = require("puppeteer");
 
@@ -36,7 +36,7 @@ function formatoRut(rut) {
   try {
     console.log(`Consultando: ${url}`);
 
-    // Navegamos a la URL y esperamos a que la red esté tranquila (networkidle2)
+
     await page.goto(url, { waitUntil: "networkidle2" });
 
     // Extraemos los datos directamente en el contexto del navegador
