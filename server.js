@@ -36,7 +36,6 @@ function formatoRut(rut) {
   try {
     console.log(`Consultando: ${url}`);
 
-
     await page.goto(url, { waitUntil: "networkidle2" });
 
     // Extraemos los datos directamente en el contexto del navegador
@@ -60,7 +59,7 @@ function formatoRut(rut) {
     });
 
     if (data.length === 0) {
-      console.log("No se encontraron datos.");
+      console.log("No se encontraron datos");
     } else {
       data.forEach((d, index) => {
         console.log(`\n-------------------------------------------`);
