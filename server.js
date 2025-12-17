@@ -16,7 +16,7 @@ function formatoRut(rut) {
 }
 
 (async () => {
-  const rut = "21226711-2";
+  const rut = "12123123-1";
   const rutFormateado = formatoRut(rut);
   const url = `https://www.nombrerutyfirma.com/rut?term=${rutFormateado}`;
 
