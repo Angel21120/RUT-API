@@ -1,5 +1,5 @@
-RUT-API |
---------|
+RUT WEB SCRAP |
+--------------|
 
 
 Creada a partir de una repo que estaba en PHP, solamente que la re-hice en JavaScript
